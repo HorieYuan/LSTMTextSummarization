@@ -1,4 +1,3 @@
-import gc
 import time
 import os
 import gluonnlp as nlp
