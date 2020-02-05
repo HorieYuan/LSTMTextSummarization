@@ -1,6 +1,9 @@
 # TextSummarization
 
+基于句子级和段落级LSTM的抽取式文本摘要模型，采用Mxnet/gloun实现。
+
 ## 数据准备
+
 利用 `code/utils.py` 对原始数据进行处理，输入为原始数据，输出为处理后为原文句子打上标签之后的数据。
 
 原始数据每行为一条以制表符分割的“原文摘要对”。示例 `data/rawdata.sample`。
